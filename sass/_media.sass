@@ -60,6 +60,7 @@
             z-index: 6
 
     .hero
+        padding: 0
         &__container
             align-items: center
             text-align: center
@@ -88,7 +89,17 @@
             width: 100%
             text-align: center
             margin: 0 auto
-
+        &__elem
+            padding: 20px 0
+            div
+                width: 100%
+                order: 2
+                .info
+                    &__title, &__subtitle
+                        text-align: left
+                    &__subtitle
+                        width: 525px
+                        margin: 0
     .app
         &__container
             flex-direction: column
